@@ -1,1 +1,4 @@
+https://hub.docker.com/r/ritikmakhija/flask-python
+docker build -t ritikmakhija/flask-python .
+docker run --rm -p 8000:8000 ritikmakhija/flask-python
 open localhost:8000
